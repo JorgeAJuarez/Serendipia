@@ -1,0 +1,9 @@
+<section>
+    <ngb-carousel>
+        <ng-template ngbSlide *ngFor="let image of images">
+            <div class="wrapper">
+                <a href="#"><img [src]="image.src" alt="Random first slide"></a>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+</section>
