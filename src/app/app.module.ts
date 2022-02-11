@@ -15,6 +15,7 @@ import { DetalleProductosComponent } from '../screen/detalle-productos/detalle-p
 import { BigCalltoActionComponent } from './big-callto-action/big-callto-action.component';
 import { CategoriasComponent } from './categorias/categorias.component';
 import { CopleteBuyComponent } from './coplete-buy/coplete-buy.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { CopleteBuyComponent } from './coplete-buy/coplete-buy.component';
     DetalleProductosComponent,
     BigCalltoActionComponent,
     CategoriasComponent,
-    CopleteBuyComponent
+    CopleteBuyComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
